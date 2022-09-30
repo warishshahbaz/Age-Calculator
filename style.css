@@ -19,10 +19,13 @@ body{
     /* background: radial-gradient(pink,red,green,black,yellow); */
 }
 .container{
-    width: 100%;
+    width: 500px;
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #fff;
+    box-shadow: 12px 23px 54px;
+    border-radius: 12px;
 }
 .top{
     position: relative;
@@ -35,7 +38,7 @@ body{
     margin-bottom: 40px;
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 2px 5px 23px yellow;
+    text-shadow: 2px 5px 23px black ;
 }
 input{
     border: none;
